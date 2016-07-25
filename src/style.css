@@ -1,0 +1,234 @@
+﻿@font-face {
+    font-family: 'uni53';
+    src: url('includes/uni05.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body		{ background: #000; margin: 0; padding: 0;}
+*			{ font-family: consolas, 'lucida console', monospace; font-size: 14px; line-height: 1.5em; }
+
+
+a:link, a:visited , a:hover, a:active {	
+	font-size: 12px;
+	font-family: consolas, 'lucida console', monospace;
+	text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+	color: #333;
+}
+
+a:hover {
+	color: #888;
+}
+
+a:focus {
+	color: lime;
+}
+
+h1, h2 {
+	margin: 0;	
+	line-height: 3em;
+	font-weight: normal;
+	font-style: normal;
+	color: #333;
+}
+
+h1 a:link,
+h1 a:visited,
+h1 a:active {
+	line-height: 3em;
+	font-weight: normal;
+	font-style: normal;
+	color: #333;
+	text-decoration: none;
+}
+h1 a:hover {
+	color: #444;
+}
+h1 a:focus {
+	color: #555;
+}
+
+h1 {
+	float: left;
+}
+
+h2 {
+	float: right;
+	margin-right: 10px;
+}
+
+/*-----------------------------*/
+
+#wrapper {
+	margin: 0 auto;
+	width: 1100px;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	margin: 10px 0 10px 0;
+	float: left;
+	clear: both;
+	border: 0px solid #111;
+	background: transparent url('images/hs-logo.png') center top no-repeat;
+}
+
+#game,
+#intro {
+	height: 400px;
+	width: 100%;
+	float: left;
+	clear: both;
+	margin-bottom: 40px;
+}
+
+#game {
+	display: none;
+	opacity: 0;
+}
+#intro {
+	display: block;
+	opacity: 1;
+	
+}
+
+#intro-text {
+	height: 380px;
+}
+
+#intro-skip {
+	text-align: center;
+	margin: 1.5em 0;
+}
+
+#left, 
+#right {
+	height: 100%;
+	padding: 12px;
+	overflow: hidden;
+	border: 12px solid #111;
+}
+
+#left {
+	float: left;
+	clear: left;
+	width: 45%;
+}
+
+#right {
+	float: right;
+	clear: right;
+	width: 45%;
+}
+
+mark {
+	font-style: italic; 
+	font-size: 11px; 
+	background: 
+	transparent; margin: 0;
+}
+
+footer {
+	width: 100%;
+	margin: 30px 0 0 0;
+	float: left;
+	clear: both;
+	border: 0px solid #111;
+}
+
+/*-----------------------------*/
+
+#intro p {
+	color: lime;
+	font-size: 14px;
+	margin: 0 5% 1.5em 5%;
+	/*font-family: 'uni53', consolas, 'lucida console', monospace;*/
+}
+
+p#skip {
+	float: none;
+	clear: both;
+	margin: 0 auto;
+	display: inline;
+	padding: 1em;
+	background: lime;
+	font-family: 'uni53', consolas, 'lucida console', monospace;
+	font-size: 16px;
+	text-align: center;
+	color: black;
+}
+
+p#skip:hover {
+	background: green;
+	cursor: pointer;
+}
+
+p#skip:focus {
+	background: yellow;
+}
+
+#in {
+	background: transparent;
+	width: 90%;
+	border: 0;
+}
+
+#left p,
+#right p,
+#in {
+	margin: 0;	
+	font-weight: normal;
+	font-style: normal;
+	color: lime;
+	outline: none;
+}
+
+#in, 
+#left .user {
+	color: green;
+}
+
+#left .i {
+	font-style: italic; 
+	color: grey;
+}
+
+#left .x {
+	font-style: italic; 
+	color: #333;
+}
+
+
+#right p {
+	font-style: italic;
+	color: lime;
+}
+
+#right p + p {
+	color: green;
+}
+	
+#submit {
+	display: none;
+}
+
+footer p {
+	text-align: center;
+	color: #333;
+	font-size: 12px;
+}
+
+#watch-intro {
+	font-size: 12px;
+}
+
+#watch-intro:hover {
+	color: #888;
+	cursor: pointer;
+}
+
+/*//// FNORD ////*/
